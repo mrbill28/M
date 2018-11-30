@@ -103,9 +103,9 @@ settings = {
     "man1":"ตั้งข้อความ",
     "man2":"ตั้งข้อความ",
     "man3":"ตั้งข้อความ",
-    "message":"บัญชีนี้ได้การป้องกัน💢โดย👑ແπ๊এπနະລ่❂થ💥 ระบบได้ทำการบล็อคคุณอัตโนมัติ\nติดต่อAUM.ได้ที่ 👑แก๊งกระล่อน💥
+    "message":"บัญชีนี้ได้การป้องกัน💢โดย👑ແπ๊এπနະລ่❂થ💥 ระบบได้ทำการบล็อคคุณอัตโนมัติ\nติดต่อAUM.ได้ที่ 👑แก๊งกระล่อน💥 "".
 	
-    "comment":"Thanks for add me",
+"comment":"Thanks for add me",
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)",
