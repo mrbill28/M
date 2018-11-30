@@ -103,7 +103,8 @@ settings = {
     "man1":"ตั้งข้อความ",
     "man2":"ตั้งข้อความ",
     "man3":"ตั้งข้อความ",
-    "message":"บัญชีนี้ได้การป้องกัน💢โดย 💈ແπ๊এπနະລ่❂થ💈 ระบบได้ทำการบล็อคคุณอัตโนมัติ\nติดต่อMJได้ที่ MJ.KTC",
+    "message":"บัญชีนี้ได้การป้องกัน💢โดย👑ແπ๊এπနະລ่❂થ💥 ระบบได้ทำการบล็อคคุณอัตโนมัติ\nติดต่อAUM.ได้ที่ 👑แก๊งกระล่อน💥
+	
     "comment":"Thanks for add me",
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
@@ -256,16 +257,16 @@ def sendMessageWithMention(to, lineMID):
         logError(error)
  
 def myhelp():
-    myHelp = """💈ແπ๊এπနະລ่❂થ💈
-💈คำสั่ง = คำสั่ง
-💈คำสั่ง2 = คำสั่งเชลบอท
-💈คำสั่ง3 = คำสั่งการแทค
-💈คำสั่ง4 = คำสั่งการตั้งค่า
-💈คำสั่ง5 = คำสั่งค้นหา
-💈คำสั่ง6 = คำสั่งกลุ่ม
-💈คำสั่ง7 = คำสั่งเลียนแบบ
-💈คำสั่ง8 = คำสั่งล่องหน
-💈ແπ๊এπနະລ่❂થ💈"""
+    myHelp = """👑ແπ๊এπနະລ่❂થ💥
+👑คำสั่ง = คำสั่ง
+👑คำสั่ง2 = คำสั่งเชลบอท
+👑คำสั่ง3 = คำสั่งการแท
+👑คำสั่ง4 = คำสั่งการตั้งค่า
+👑คำสั่ง5 = คำสั่งค้นหา
+👑คำสั่ง6 = คำสั่งกลุ่ม
+👑คำสั่ง7 = คำสั่งเลียนแบบ
+👑คำสั่ง8 = คำสั่งล่องหน
+👑ແπ๊এπနະລ่❂થ💥"""
     return myHelp
 
 def listgrup():
@@ -627,9 +628,9 @@ def lineBot(op):
                             mc += "◉ " + line.getContact(mi_d).displayName + "\n"
                         line.sendMessage(to, mc)              
                 elif text.lower() == '.เทส':
-                    ki.sendMessage(to, "💈ແπ๊এπနະລ่❂થ💈ยังอยู่ครับ")
+                    ki.sendMessage(to, "👑ແπ๊এπနະລ่❂થ💥ยังอยู่ครับ")
                 elif text.lower() == 'เทส':
-                    line.sendMessage(to, "💈ແπ๊এπနະລ่❂થ💈กำลังโหลด:▒...0%")
+                    line.sendMessage(to, "👑ແπ๊এπနະລ่❂થ💈💥กำลังโหลด:▒...0%")
                     line.sendMessage(to, "█▒... 10.0%")
                     line.sendMessage(to, "██▒... 20.0%")
                     line.sendMessage(to, "███▒... 30.0%")
@@ -640,7 +641,7 @@ def lineBot(op):
                     line.sendMessage(to, "████████▒... 80.0%")
                     line.sendMessage(to, "█████████▒... 90.0%")
                     line.sendMessage(to, "███████████..100.0%")
-                    line.sendMessage(to, " 💈ແπ๊এπနະລ่❂થ💈ยังอยู่ครับ✔")
+                    line.sendMessage(to, "👑ແπ๊এπနະລ่❂થ💥ยังอยู่ครับ✔")
                 elif msg.text.lower() == ".ออน":
                     line.sendMessage(msg.to,(str(datetime.datetime.now() - start_runtime)[:-7].split(" days, ")[0]+" วัน "+str(datetime.datetime.now() - start_runtime)[:-7].split(" days, ")[1].split(":")[0]+" ชั่วโมง " if "days" in str(datetime.datetime.now() - start_runtime) else str(datetime.datetime.now() - start_runtime)[:-7].split(" day, ")[0]+" วัน "+str(datetime.datetime.now() - start_runtime)[:-7].split(" day, ")[1].split(":")[0]+" ชั่วโมง " if "day" in str(datetime.datetime.now() - start_runtime) else str(datetime.datetime.now() - start_runtime)[:-7].split(":")[0]+" ชั่วโมง ")+str(datetime.datetime.now() - start_runtime)[:-7].split(":")[1]+" นาที "+str(datetime.datetime.now() - start_runtime)[:-7].split(":")[2]+" วินาที")               
                 elif "คท " in msg.text:
@@ -740,7 +741,7 @@ def lineBot(op):
                             pass
                 elif text.lower() == 'sp':
                     start = time.time()
-                    line.sendMessage(to,"ความเร็วของบอท💈ແπ๊এπနະລ่❂થ💈...")
+                    line.sendMessage(to,"ความเร็วของบอท👑ແπ๊এπနະລ่❂થ💥...")
                     elapsed_time = time.time() - start
                     line.sendMessage(to,format(str(elapsed_time)))	
                 elif text.lower() == 'รีบอท':
@@ -751,7 +752,7 @@ def lineBot(op):
                     timeNow = time.time()
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
-                    line.sendMessage(to, "💈ແπ๊এπနະລ่❂થ💈\n""ระยะเวลาการทำงานของบอท {}".format(str(runtime)))
+                    line.sendMessage(to, "👑ແπ๊এπနະລ่❂થ💥\n""ระยะเวลาการทำงานของบอท {}".format(str(runtime)))
                 elif text.lower() == 'บอท':
                     try:
                         arr = []
@@ -761,14 +762,14 @@ def lineBot(op):
                         grouplist = line.getGroupIdsJoined()
                         contactlist = line.getAllContactIds()
                         blockedlist = line.getBlockedContactIds()
-                        ret_ = "╔══[  💈ແπ๊এπနະລ่❂થ💈 ]" 
+                        ret_ = "╔══[  👑ແπ๊এπနະລ่❂💥 ]" 
                         ret_ += "\n╠🌟⏩ ชื่อ ═ {}".format(contact.displayName)
                         ret_ += "\n╠🌟⏩ กลุ่ม ═ {}".format(str(len(grouplist)))
                         ret_ += "\n╠🌟⏩ เพื่อน ═ {}".format(str(len(contactlist)))
                         ret_ += "\n╠🌟⏩ บล็อค ═ {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[สถานะ]"
                         ret_ += "\n╠🌟⏩ ผู้สร้าง ═ {}".format(creator.displayName)
-                        ret_ += "\n╚══[  💈ແπ๊এπနະລ่❂થ💈 ]"
+                        ret_ += "\n╚══[  👑ແπ๊এπနະລ่❂થ💥 ]"
                         line.sendContact(to, owner)
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
@@ -776,7 +777,7 @@ def lineBot(op):
 #==============================================================================#
                 elif text.lower() == 'เชคค่า':
                     try:
-                        ret_ = "╔════[  สถานะ 💈ແπ๊এπနະລ่❂થ💈 ]═════┓"
+                        ret_ = "╔════[  สถานะ 👑ແπ๊এπနະລ่❂થ💥 ]═════┓"
                         if settings["บอททำงานปกติครับ"] == True: ret_ += "\n╠❂☞ รับบล็อคออโต้ ✔"
                         else: ret_ += "\n╠🔀 รับบล็อคออโต้    ✘ "
                         if settings["autoJoin"] == True: ret_ += "\n╠❂☞ เข้าห้องออโต้ ✔"
@@ -803,7 +804,7 @@ def lineBot(op):
                         else: ret_ += "\n╠🔀 แสดงภาพคนแทค ✘ "
                         if settings["detectMention"] == True: ret_ += "\n╠❂☞ แสดงติ้กคนแทค ✔"
                         else: ret_ += "\n╠🔀 แสดงติ้กคนแทค ✘ "
-                        ret_ += "\n╚════[ สถานะ 💈ແπ๊এπနະລ่❂થ💈 ]═════┛"
+                        ret_ += "\n╚════[ สถานะ 👑ແπ๊এπနະລ่❂થ💥 ]═════┛"
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
                         line.sendMessage(msg.to, str(e))
@@ -1149,7 +1150,7 @@ def lineBot(op):
                         gPending = str(len(group.invitee))
                     if group.preventedJoinByTicket == True:
                         gQr = "ปิด"
-                        gTicket = "💈ແπ๊এπနະລ่❂થ💈"
+                        gTicket = "👑ແπ๊এπနະລ่❂થ💥"
                     else:
                         gQr = "Terbuka"
                         gTicket = "https://line.me/R/ti/g/{}".format(str(line.reissueGroupTicket(group.id)))
@@ -1627,7 +1628,7 @@ def lineBot(op):
                     for ids in kontak:
                         msgs+="\n[%i] %s" % (num, ids.displayName)
                         num=(num+1)
-                    msgs+="\n════💈ແπ๊এπနະລ่❂થ💈════\n\nจำนวน : %i" % len(kontak)
+                    msgs+="\n════👑ແπ๊এπနະລ่❂થ💥════\n\nจำนวน : %i" % len(kontak)
                     line.sendMessage(receiver, msgs)
                 elif text.lower() == 'tagall':
                     group = line.getGroup(msg.to)
@@ -3040,12 +3041,12 @@ def lineBot(op):
                     r=requests.get('https://script.google.com/macros/exec?service=AKfycbw7gKzP-WYV2F5mc9RaR7yE3Ve1yN91Tjs91hp_jHSE02dSv9w&nama=ervan&tanggal='+tanggal)
                     data=r.text
                     data=json.loads(data)
-                    ret_ = "╔══[ 💈ແπ๊এπနະລ่❂થ💈 ]"
+                    ret_ = "╔══[ 👑ແπ๊এπနະລ่❂થ💥 ]"
                     ret_ += "\n╠ Date Of Birth : {}".format(str(data["data"]["lahir"]))
                     ret_ += "\n╠ Age : {}".format(str(data["data"]["usia"]))
                     ret_ += "\n╠ Birthday : {}".format(str(data["data"]["ultah"]))
                     ret_ += "\n╠ Zodiak : {}".format(str(data["data"]["zodiak"]))
-                    ret_ += "\n╚══[ 💈ແπ๊এπနະລ่❂થ💈 ]"
+                    ret_ += "\n╚══[ 👑ແπ๊এπနະລ่❂થ💥 ]"
                     line.sendMessage(to, str(ret_))
                 
                 elif "instagram" in msg.text.lower():
@@ -3056,7 +3057,7 @@ def lineBot(op):
                         r = web.get("https://www.instagram.com/{}/?__a=1".format(search))
                         try:
                             data = json.loads(r.text)
-                            ret_ = "╔══[ 💈ແπ๊এπနະລ่❂થ💈 ]"
+                            ret_ = "╔══[ 👑ແπ๊এπနະລ่❂થ💥 ]"
                             ret_ += "\n╠ Nama : {}".format(str(data["user"]["full_name"]))
                             ret_ += "\n╠ Username : {}".format(str(data["user"]["username"]))
                             ret_ += "\n╠ Bio : {}".format(str(data["user"]["biography"]))
@@ -3172,7 +3173,7 @@ def lineBot(op):
                     for ids in kontak:
                         msgs+="\n[%i] %s" % (num, ids.displayName)
                         num=(num+1)
-                    msgs+="\n💈ແπ๊এπနະລ่❂થ💈\n\nTotal Teman : %i" % len(kontak)
+                    msgs+="\n👑ແπ๊এπနະລ่❂થ💥\n\nTotal Teman : %i" % len(kontak)
                     line.sendMessage(msg.to, msgs)
 
                 elif msg.text in ["Blocklist"]: 
