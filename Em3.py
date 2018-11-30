@@ -256,7 +256,7 @@ def sendMessageWithMention(to, lineMID):
         logError(error)
  
 def myhelp():
-    myHelp = """ 💈ແπ๊এπနະລ่❂થ💈
+    myHelp = """💈ແπ๊এπနະລ่❂થ💈
 💈คำสั่ง = คำสั่ง
 💈คำสั่ง2 = คำสั่งเชลบอท
 💈คำสั่ง3 = คำสั่งการแทค
@@ -705,7 +705,7 @@ def lineBot(op):
                     line.inviteIntoGroup(to,[midd])
                 elif msg.text.lower() == "speed":
                     start = time.time()
-                    line.sendMessage(msg.to,"ความเร็วอยู่ที่")
+                    line.sendMessage(msg.to,"ความเร็วอยู่ที่..")
                     line.sendMessage(msg.to,str(int(round((time.time() - start) * 1000)))+" ms")
                 elif 'มาหำ' in text.lower():
                     if msg.toType == 2:
@@ -916,7 +916,7 @@ def lineBot(op):
                     line.sendContact(to, lineMID)
                 elif text.lower() == 'ผส':
                     sendMessageWithMention(to, lineMID)
-                    line.sendContact(to, "ub65037fce83ce14909759e3a932182c9")
+                    line.sendContact(to, "u233f56f315144695d08ac27258f98fe5")
                 elif text.lower() == 'มิด':
                     line.sendMessage(msg.to,"[MID]\n" +  lineMID)
                 elif text.lower() == 'ชื่อ':
